@@ -1,4 +1,4 @@
-local _2afile_2a = "fnl/config/util.fnl"
+local _2afile_2a = "nvim/fnl/config/util.fnl"
 local _2amodule_name_2a = "config.util"
 local _2amodule_2a
 do

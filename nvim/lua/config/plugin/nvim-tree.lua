@@ -1,4 +1,4 @@
-local _2afile_2a = "fnl/config/plugin/nvim-tree.fnl"
+local _2afile_2a = "nvim/fnl/config/plugin/nvim-tree.fnl"
 local _2amodule_name_2a = "config.plugin.nvim-tree"
 local _2amodule_2a
 do

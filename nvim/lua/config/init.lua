@@ -1,4 +1,4 @@
-local _2afile_2a = "fnl/config/init.fnl"
+local _2afile_2a = "nvim/fnl/config/init.fnl"
 local _2amodule_name_2a = "config.init"
 local _2amodule_2a
 do
@@ -94,7 +94,7 @@ util["set-global-variable"](vim_markdown_conceal, 2)
 nvim.ex.autocmd("FocusGained,BufEnter", "*", ":checktime")
 nvim.ex.set("nowrap")
 do
-  local options = {encoding = "utf-8", spelllang = "en_gb", number = true, relativenumber = true, ruler = true, completeopt = "menuone,noselect", wildmenu = true, wildignore = "*/tmp/*,*.so,*.swp,*.zip", ignorecase = true, smartcase = true, clipboard = "unnamedplus", listchars = str.join(",", {"tab:\226\150\182-", "trail:\226\128\162", "extends:\194\187", "precedes:\194\171", "eol:\194\172"}), expandtab = true, splitbelow = true, splitright = true, hlsearch = true, signcolumn = "number", list = false, errorbells = false}
+  local options = {encoding = "utf-8", spelllang = "en_gb", number = true, relativenumber = true, ruler = true, completeopt = "menuone,noselect", wildmenu = true, wildignore = "*/tmp/*,*.so,*.swp,*.zip", ignorecase = true, smartcase = true, clipboard = "unnamedplus", listchars = str.join(",", {"tab:\226\150\182-", "trail:\226\128\162", "extends:\194\187", "precedes:\194\171", "eol:\194\172"}), expandtab = true, splitbelow = true, splitright = true, hlsearch = true, signcolumn = "number", errorbells = false, list = false}
   for option, value in pairs(options) do
     util["set-global-option"](option, value)
   end

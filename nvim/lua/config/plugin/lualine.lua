@@ -1,4 +1,4 @@
-local _2afile_2a = "fnl/config/plugin/lualine.fnl"
+local _2afile_2a = "nvim/fnl/config/plugin/lualine.fnl"
 local _2amodule_name_2a = "config.plugin.lualine"
 local _2amodule_2a
 do

@@ -91,6 +91,6 @@
   :clojure-vim/clojure.vim {:mod :clojure-vim}
   :clojure-vim/vim-jack-in {}
   :m00qek/baleia.nvim      {:mod :baleia}
-  :olical/conjure          {:mod :conjure}
   :voldikss/vim-floaterm   {}
+  :tpope/vim-dispatch       {}
   :HiPhish/nvim-ts-rainbow2 {})
